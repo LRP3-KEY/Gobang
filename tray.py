@@ -13,7 +13,7 @@ class Tray(object):
                     print(" %s |" % (k) ,end = "")
                 print("\n")
 
-    def fill_chess(self,value):
+    def fill_chess(self,chess):
         val=input("请开始输入行/列的数值(,):")
         value = val.split(",")
 
@@ -22,6 +22,19 @@ class Tray(object):
         if self.value not in self.movable_list:
             print("%d这里不能下棋子"%self.value)
             return
+
+    def keep_vlue(self,value):
+        keep = [] #收集数据
+        keep.append(value)
+        for i in keep:     #是否有连续五个数值
+
+
+
+
+
+
+    def is_win(self,chess):
+        chess_dir = [[]]
 
 
 

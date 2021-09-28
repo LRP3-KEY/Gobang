@@ -3,4 +3,4 @@ import players
 
 class Game():
     def __init__(self):
-        self.
+        self.chess.Borad
