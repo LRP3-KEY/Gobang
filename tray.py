@@ -32,21 +32,7 @@ class Tray(object):
 
 
 
+    #def is_win(self,chess):
+        #pass
 
-    def is_win(self,chess):
-        chess_dir = [[]]
-
-
-
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    k=Tray(10,10)
-    k.show_tray(True)
-    k.fill_chess()
 
